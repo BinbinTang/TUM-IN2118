@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <stdio.h>
 #include "BufferManager.h"
@@ -82,3 +83,16 @@ BufferManager::~BufferManager(){
     pthread_rwlock_destroy(&array_p);
     close(file);
 }
+=======
+#include "BufferManager.hpp"
+#include <stdlib.h>
+#include <assert.h>
+#include <string.h>
+
+BufferManager::~BufferManager(){
+  pthread_rwlock_destroy(&buffer_latch);
+  pthread_
+  
+  close(file);
+}
+>>>>>>> 74c73c29289d8b2b0dd0b2a1035fc77535036441
