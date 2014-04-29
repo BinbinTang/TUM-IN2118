@@ -3,3 +3,6 @@ gen.cpp Makefile
 
 clean:
 	rm -rf gen
+
+
+CC = g++
